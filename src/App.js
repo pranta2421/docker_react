@@ -2,8 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    return ( <
-        div className = "App" >
+    return ( < div className = "App" >
 
         <
         header className = "App-header" >
@@ -15,16 +14,12 @@ function App() {
 
         <
         p >
-        pra <
-        /p>  <
+        pra < /p>  <
         a className = "App-link"
         href = "https://reactjs.org"
         target = "_blank"
         rel = "noopener noreferrer" >
-        React <
-        /a>  < /
-        header > <
-        /div>
+        React < /a>  </header > < /div>
     );
 }
 

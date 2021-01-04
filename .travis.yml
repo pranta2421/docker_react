@@ -4,5 +4,4 @@ services:
 before_install:
   - docker build -t 45242145/docker_react  -f Dockerfile.dev .
 script:
-  - docker run -e CI=true 45242145/docker_react npm run test
-language: generic
+  - docker run 45242145/docker_react npm run test -- --coverage
